@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsan Legal | Advocate</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #1a2338;
+    line-height: 1.6;
+    background: #faf9f6;
+  }
+  header {
+    background: #0d1b2a;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 { font-size: 24px; letter-spacing: 1px; }
+  nav a {
+    color: #e0e4ea;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+  }
+  nav a:hover { color: #c9a45c; }
+
+  .hero {
+    background: #14213d;
+    color: #fff;
+    text-align: center;
+    padding: 90px 20px;
+  }
+  .hero h2 { font-size: 36px; margin-bottom: 15px; }
+  .hero p { font-size: 18px; color: #cdd3de; max-width: 600px; margin: 0 auto 25px; }
+  .btn {
+    display: inline-block;
+    background: #c9a45c;
+    color: #0d1b2a;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+
+  section { padding: 60px 40px; max-width: 900px; margin: 0 auto; }
+  section h3 {
+    font-size: 26px;
+    color: #0d1b2a;
+    border-bottom: 2px solid #c9a45c;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 25px;
+  }
+
+  .practice-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .practice-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-left: 4px solid #c9a45c;
+  }
+  .practice-card h4 { margin-bottom: 8px; color: #0d1b2a; }
+
+  .contact-box {
+    background: #0d1b2a;
+    color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+  }
+  .contact-box p { margin-bottom: 10px; }
+  form { display: flex; flex-direction: column; gap: 12px; margin-top: 20px; }
+  input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: inherit;
+  }
+  form button {
+    background: #c9a45c;
+    color: #0d1b2a;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 25px;
+    background: #0d1b2a;
+    color: #9aa4b5;
+    font-size: 14px;
+  }
+
+  @media (max-width: 600px) {
+    header { flex-direction: column; gap: 10px; }
+    .practice-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Samsan Legal</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#practice">Practice Areas</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Trusted legal counsel, personally handled.</h2>
+  <p>Samsan Legal provides dedicated advocacy across civil, criminal, family, and property matters — guided directly by your advocate, start to finish.</p>
+  <a href="#contact" class="btn">Book a Consultation</a>
+</div>
+
+<section id="about">
+  <h3>About</h3>
+  <p>Samsan Legal was founded to give clients direct, personal access to their advocate — no hand-offs, no junior associates. Every matter is handled with the same care, attention, and accountability from first consultation to resolution. With a foundation built on diligence and a client-first approach, Samsan Legal is committed to making the legal process clear and manageable at every step.</p>
+</section>
+
+<section id="practice">
+  <h3>Practice Areas</h3>
+  <div class="practice-grid">
+    <div class="practice-card">
+      <h4>Civil Litigation</h4>
+      <p>Disputes, contracts, recovery suits, and civil remedies handled with thorough case preparation.</p>
+    </div>
+    <div class="practice-card">
+      <h4>Criminal Defense</h4>
+      <p>Representation across bail applications, trials, and appeals with a focus on protecting your rights.</p>
+    </div>
+    <div class="practice-card">
+      <h4>Family Law</h4>
+      <p>Divorce, custody, maintenance, and family disputes handled with discretion and sensitivity.</p>
+    </div>
+    <div class="practice-card">
+      <h4>Property Matters</h4>
+      <p>Title disputes, documentation, tenancy issues, and property litigation.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact</h3>
+  <div class="contact-box">
+    <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+    <p><strong>Email:</strong> contact@samsanlegal.com</p>
+    <p><strong>Office:</strong> Chennai, Tamil Nadu</p>
+    <form>
+      <input type="text" placeholder="Your name" required>
+      <input type="tel" placeholder="Phone number" required>
+      <textarea rows="4" placeholder="Briefly describe your matter"></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Samsan Legal. All rights reserved.
+</footer>
+
+</body>
+</html>
